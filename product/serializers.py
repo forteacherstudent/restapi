@@ -8,7 +8,7 @@ class dataserializer(serializers.ModelSerializer):
         if obj.id < 2:
             eb="Early Bird"
         else:
-            eb="Late Comer"
+            eb="Not an Early Bird"
         return eb
     
     class Meta:
