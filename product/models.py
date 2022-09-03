@@ -1,0 +1,8 @@
+from django.db import models
+
+# Create your models here.
+class products(models.Model):
+    nm=models.CharField(max_length=50)
+    desc=models.CharField(max_length=100)
+    class Meta: verbose_name_plural = 'Products'
+    
